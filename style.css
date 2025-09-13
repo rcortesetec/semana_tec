@@ -1,0 +1,211 @@
+/*******************************************************
+TITLE: Fixed One-Column #2 Layout (Basic) V1.0 (Beta)
+DATE: 20070807
+AUTHOR: The CSS Tinderbox - http://www.csstinderbox.com
+*******************************************************/
+
+body {
+margin:20px;
+padding:0;
+height:100%;
+background-color:#ffffff;
+color:#000000;  
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+}
+
+a {
+color:#cc0000;
+text-decoration:underline;
+}
+
+a:hover {
+color:#cccccc;
+text-decoration:none;
+}
+
+ul {
+margin:0 0 0 20px;
+list-style-type:disc;
+}
+
+li {
+margin:4px 0 5px 10px;
+}
+
+blockquote {
+margin:1em;
+padding:.5em;
+background-color:#eeeeee;
+border-top:1px solid #cccccc;
+border-bottom:1px solid #cccccc;
+}
+
+blockquote p {
+margin:.2em;
+}
+
+#container { 	
+margin:0 auto;
+padding:0;
+width:960px;
+text-align:left;
+vertical-align: middle;	
+background-color:#ffffff;
+border:1px solid #cccccc;
+}
+
+#header {
+margin:0;
+padding:0;
+height:140px;
+background-color:#003366;
+}
+
+#header h1 {
+margin:0;
+padding:20px 0 0 20px;
+font-size:1.8em;
+letter-spacing:.1em;
+color:#ffffff;
+font-weight:lighter;
+}
+
+#header h2 {
+margin:0;
+padding:0 0 0 20px;
+font-size:.9em;
+font-weight:lighter;
+letter-spacing:.1em;
+color:#eeeeee;
+}
+
+#centerColumn { 	
+margin:0;
+min-height:160px;
+padding:10px 10px 10px 10px;
+background-color:#ffffff;
+}
+
+#centerColumn p {
+padding:10px
+}
+
+#centerColumn h2 {
+margin:0;
+padding:10px 0 5px 0;
+font-size:1.3em;
+letter-spacing:.1em;
+}
+
+#footer {
+position:relative;
+bottom:0;
+margin:0;
+padding:0;
+height:60px;
+line-height:60px;
+text-align:center;
+font-size:.6em;
+background-color:#ffffff;
+border-top:1px solid #cccccc;
+}
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;    
+}
+
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;         
+}
+
+.bordered tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: middle;     
+}
+
+.bordered th {
+	color: #ffffff;
+    background-color: #003366;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#003366), to(#003366));
+    background-image: -webkit-linear-gradient(top, #003366, #003366);
+    background-image:    -moz-linear-gradient(top, #003366, #003366);
+    background-image:     -ms-linear-gradient(top, #003366, #003366);
+    background-image:      -o-linear-gradient(top, #003366, #003366);
+    background-image:         linear-gradient(top, #003366, #003366);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+	text-align: center;
+}
+
+.bordered td:first-child, .bordered th:first-child {
+    border-left: none;
+}
+
+.bordered th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.bordered th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.topic {
+	width: 30%;
+	text-align: center;
+}
+
+.week {
+	width: 16%;
+	text-align: center;
+}
+
+.session {
+	width: 27%;
+	text-align: left;
+}
